@@ -13,6 +13,7 @@
 		9136789C210C2076007746EB /* Hackaton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9136789A210C2076007746EB /* Hackaton.xcdatamodeld */; };
 		9136789E210C2078007746EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9136789D210C2078007746EB /* Assets.xcassets */; };
 		913678A1210C2078007746EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9136789F210C2078007746EB /* LaunchScreen.storyboard */; };
+		913678AC210C214B007746EB /* Medico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913678AB210C214B007746EB /* Medico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9136789D210C2078007746EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913678A0210C2078007746EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		913678A2210C2078007746EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913678AB210C214B007746EB /* Medico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		91367892210C2076007746EB /* Hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				913678A8210C20D5007746EB /* Model */,
+				913678A9210C20E5007746EB /* View */,
+				913678AA210C2100007746EB /* Controller */,
 				91367893210C2076007746EB /* AppDelegate.swift */,
-				91367895210C2076007746EB /* ViewController.swift */,
-				91367897210C2076007746EB /* Main.storyboard */,
 				9136789D210C2078007746EB /* Assets.xcassets */,
-				9136789F210C2078007746EB /* LaunchScreen.storyboard */,
 				913678A2210C2078007746EB /* Info.plist */,
 				9136789A210C2076007746EB /* Hackaton.xcdatamodeld */,
 			);
 			path = Hackaton;
+			sourceTree = "<group>";
+		};
+		913678A8210C20D5007746EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				913678AB210C214B007746EB /* Medico.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		913678A9210C20E5007746EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91367897210C2076007746EB /* Main.storyboard */,
+				9136789F210C2078007746EB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		913678AA210C2100007746EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91367895210C2076007746EB /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913678AC210C214B007746EB /* Medico.swift in Sources */,
 				91367896210C2076007746EB /* ViewController.swift in Sources */,
 				91367894210C2076007746EB /* AppDelegate.swift in Sources */,
 				9136789C210C2076007746EB /* Hackaton.xcdatamodeld in Sources */,
